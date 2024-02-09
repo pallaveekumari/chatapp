@@ -6,7 +6,7 @@ import HomePage from "./HomePage/HomePage";
 import Navbar from "../Components/Navbar/Navbar";
 import Chat from "../Components/Chat/Chat";
 import AllChats from "../Components/AllChats/AllChats";
-import Search from "../Components/Search/Search";
+
 import Sidebar from "../Components/Sidebar/Sidebar";
 import Messages from "../Components/Messages/Messages";
 import InputPanel from "../Components/InputPanel/InputPanel";
@@ -22,7 +22,7 @@ const AllRoutes = () => {
         <Route path="/chat" element={<Chat />} />
 
         <Route path="/allchats" element={<AllChats />} />
-        <Route path="/search" element={<Search />} />
+        {/* <Route path="/search" element={<Search />} /> */}
         <Route path="/sidebar" element={<Sidebar />} />
       <Route path="/messages" element={<Messages/>}/>
       <Route path="/inputpanel" element={<InputPanel/>}/>

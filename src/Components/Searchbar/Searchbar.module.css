@@ -1,5 +1,8 @@
-.chat{
-    flex: 2;
+.searchbar {
+  border-bottom: 1px solid gray;
+}
+.searchForm {
+  padding: 10px;
 }
 .userchat {
     padding: 10px;
@@ -18,11 +21,16 @@
   border-radius: 50%;
   object-fit: cover;
 }
-.userchatName{
-    font-size: 18px;
-    font-weight: 500;
-}
-.latestMessage{
-    font-size: 14px;
+.inputtext {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  flex-direction: row-end;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #555280;
+  outline: none;
+  &::placeholder {
     color: lightgrey;
+  }
 }
