@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from "./InputPanel.module.css"
 const InputPanel = () => {
   return (
-    <div>InputPanel</div>
+    <div className={styles.inputPanel}>InputPanel</div>
   )
 }
 
