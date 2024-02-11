@@ -20,6 +20,7 @@ const Search = () => {
   const { currentUser } = useContext(AuthContext);
 
   const handleSearch = async () => {
+    console.log("first")
     const q = query(
       collection(db, "users"),
       where("displayName", "==", username)
@@ -36,6 +37,7 @@ const Search = () => {
   };
 
   const handleKey = (e) => {
+    console.log("hi click")
     e.code === "Enter" && handleSearch();
   };
 
