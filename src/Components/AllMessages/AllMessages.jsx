@@ -1,8 +1,15 @@
 import React from 'react'
-
+import Messages from '../Messages/Messages'
+import styles from "./AllMessages.module.css"
 const AllMessages = () => {
   return (
-    <div>AllMessages</div>
+    <div className={styles.messages}>
+      <Messages/>
+      <Messages/>
+      <Messages/>
+      <Messages/>
+      <Messages/>
+    </div>
   )
 }
 

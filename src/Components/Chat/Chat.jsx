@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Chat.module.css"
 import AllMessages from '../AllMessages/AllMessages'
-import Messages from '../Messages/Messages'
+
 import InputPanel from '../InputPanel/InputPanel'
 const Chat = () => {
   return (
@@ -14,7 +14,7 @@ const Chat = () => {
         <img  className={styles.chatIconsImg} src="" alt="" />
       </div>
     </div>
-      <Messages/>
+     <AllMessages/>
       <InputPanel/>
    </div>
   )
