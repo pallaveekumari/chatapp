@@ -12,7 +12,7 @@ export const AuthContextProvider = ({ children }) => {
       setCurrentUser(user);
       console.log(user);
     });
-
+//cleanup function otherwise it will do memory leackage
     return () => {
       unsub();
     };
